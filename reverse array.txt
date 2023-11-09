@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Day5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		int n=scan.nextInt();
+		int[] ar=new int[n];
+		int i;
+		for( i=0;i<ar.length;i++)
+		{
+			ar[i]=scan.nextInt();
+		}
+		for( i=ar.length-1;i>=0;i--)
+		{
+				System.out.print(ar[i]+" ");
+		}
+	}
+}

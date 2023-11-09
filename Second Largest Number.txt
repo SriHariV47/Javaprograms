@@ -1,0 +1,32 @@
+import java.util.*;
+
+public class Demo20 {
+
+    public static int findSecondLargest(int[] arr) {
+        // write your code here
+        for(int i=0;i<ar.length;i++)
+        {
+            ar[i]=sc.nextInt();
+        }
+        int res =secondlargest(ar);
+        System.out.println(res);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int firstlargestnum=0 , secondlargestnum=0;
+        for(int i=0;i<ar.length;i++)
+        {
+            if(ar[i]>firstlargestnum)
+            {
+                firstlargestnum=secondlargestnum;
+                firstlargestnum=ar[i];
+            }
+            else if(ar[i]>secondlargestnum)
+            {
+                secondlargestnum=ar[i];
+            }
+        }
+        retuen secondlargestnum;
+    }
+}
